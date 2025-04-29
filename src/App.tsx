@@ -50,7 +50,7 @@ export default function Portfolio() {
       .then(() => {
         setFormStatus("success");
         setFormData({ name: "", email: "", message: "" });
-        setTimeout(() => setFormStatus(""), 5000); // Clear status after 5 seconds
+        setTimeout(() => setFormStatus(""), 5000);
       })
       .catch((error) => {
         console.error("EmailJS error:", error);
@@ -97,7 +97,7 @@ export default function Portfolio() {
     {
       title: "Words to Impress",
       description:
-        "A vocabulary building app based on the book The The Words You Should Know",
+        "A vocabulary building app based on the book The Words You Should Know",
       technologies: ["React Native", "Javascript", "Expo"],
       image: wtiImage,
       demo: RELEASING_SOON,
@@ -352,7 +352,6 @@ export default function Portfolio() {
                 ></textarea>
               </div>
 
-              {/* Form status messages */}
               {formStatus === "sending" && (
                 <div className="bg-blue-900/50 backdrop-blur-md p-4 rounded-lg flex items-center justify-center">
                   <div className="animate-spin rounded-full h-6 w-6 border-t-2 border-b-2 border-purple-300 mr-3"></div>
