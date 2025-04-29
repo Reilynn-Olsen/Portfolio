@@ -64,7 +64,7 @@ export default function Portfolio() {
       "> const developer = {",
       '>   name: "Reilynn Olsen",',
       '>   role: "Full Stack Developer",',
-      '>   skills: ["React", "TypeScript", "Node.js", "Tailwind CSS"],',
+      '>   skills: ["React", "TypeScript", "Python", "Node.js", "Tailwind CSS"],',
       '>   passions: ["Clean Code", "UI/UX", "Problem Solving"]',
       "> };",
       "> developer.createAmazingWebsites();",
@@ -111,7 +111,7 @@ export default function Portfolio() {
     },
     {
       name: "Backend",
-      items: ["Node.js", "Express", "Next.JS", "PostgreSQL", "Ruby"],
+      items: ["Node.js", "Python", "Express", "Next.JS", "PostgreSQL", "Ruby"],
     },
     { name: "Tools", items: ["Git", "Github", "Jest", "Docker", "Linux"] },
   ];
